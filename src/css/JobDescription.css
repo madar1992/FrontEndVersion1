@@ -1,0 +1,51 @@
+/* JobDescription.css */
+.job-description-container {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .job-details {
+    margin: 0px; /* Add margin around the job details */
+    flex: 1; /* Take up remaining space */
+  }
+  
+  /* JobDescription.css */
+.job-buttons {
+    display: flex;
+    margin-top: 20px;
+    gap:0px;
+  }
+  
+  .apply-button,
+  .save-button {
+    padding: 5px 10px; /* Adjust padding to control the spacing */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  
+  /* Rest of the styles as previously mentioned */
+  
+  
+  hr {
+    margin: 20px 0; /* Add margin above and below the horizontal line */
+    border: 0;
+    border-top: 1px solid #ddd;
+  }
+  /* JobDescription.css */
+.job-description-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .job-details {
+    margin: 20px; /* Add margin around the job details */
+    flex: 1; /* Take up remaining space */
+  }
+  /* Additional styles for other job details */
+  

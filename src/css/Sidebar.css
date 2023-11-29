@@ -1,0 +1,128 @@
+
+
+.sidebar-top {
+  width: 220px;
+  background-color: blue;
+  text-align: center;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.user-email {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.update-profile-button {
+  background-color: white;
+  color: blue;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+ul li svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* ... (other styles) */
+
+/* Sidebar.css */
+/* ... (other styles) */
+/* Sidebar.css */
+.sidebar {
+  width: 220px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  border-radius: 20px;
+  position: relative;
+}
+.avatar-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 0px 0; /* Adjust the margin as needed */
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+}
+
+/* Custom CSS for buttons in this page only */
+.button-container ul {
+  list-style-type: none; /* Remove default list bullets */
+  padding: 0; /* Remove default list padding */
+}
+
+.button-container li {
+  display: flex; /* Use flexbox to align symbol and text */
+  align-items: center; /* Vertically align symbol and text */
+ 
+  color: #f0f1f2; /* Set text color */
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-bottom: 10px; /* Add spacing between buttons */
+  text-align: right; /* Align button text to the right */
+}
+
+.button-container .symbol {
+  margin-right: 10px; /* Add margin to separate symbol from text */
+}
+
+.button-container li:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

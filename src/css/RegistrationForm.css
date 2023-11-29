@@ -1,0 +1,76 @@
+.registration-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* height: 100vh; Remove this line */
+  background-color: #f2f2f2;
+  padding: 20px; /* Add some padding to create space around the form */
+  }
+  
+  .registration-form {
+    width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Change the background color for the registration form */
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto; /* This centers the button horizontally */
+    width: 50%; /* You can adjust the width as needed */
+    padding: 10px;
+    font-size: 16px;
+    background-color: #068ADD;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* RegistrationForm.css */
+.error-message {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}
+/* Assuming you have a class named "helpful-line" for the helping lines */
+.helpful-line {
+  background-color: #f0f0f0; /* You can change this color to your desired background color */
+  color: #911a1a; /* Text color for the helping lines */
+  font-size: 12px; /* You can adjust the font size as needed */
+  padding: 5px; /* You can adjust the padding to add spacing around the text */
+}
+/* RegistrationForm.css */
+/* ... Your existing styles ... */
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #333; /* Adjust the spinner color */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  margin-right: 5px; /* Add spacing to separate the spinner from text */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

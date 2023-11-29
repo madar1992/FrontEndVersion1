@@ -1,0 +1,110 @@
+.company-profile-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Headings */
+.profile-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-subtitle {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.input-field {
+  margin-bottom: 15px;
+}
+
+.company-name-field,
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Social input fields */
+.social-input {
+  display: flex;
+  align-items: center;
+}
+
+.input-with-icon {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-icon {
+  margin-right: 10px;
+  color: #888;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submit-button,
+.cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.cancel-button {
+  background-color: #ccc;
+  color: #fff;
+}
+
+/* Logo preview */
+.logo-preview {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 800px) {
+  /* Adjust styles for smaller screens if needed */
+  .company-profile-container {
+    /* Add your responsive styles here */
+    padding: 10px;
+  }
+}
+
+/* Adjust input field width */
+.company-name-field,
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+}
+
+/* Center-align the submit and cancel buttons */
+.buttons {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add some margin between buttons */
+.submit-button,
+.cancel-button {
+  margin-top: 10px;
+}

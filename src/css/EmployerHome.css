@@ -1,0 +1,18 @@
+/* EmployerHome.css */
+.employer-home {
+  display: flex;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 180px; /* Adjust the width as needed */
+  /* ... other styles ... */
+}
+
+/* Main content */
+.main-content {
+  flex-grow: 1;
+  padding: 20px; /* Add some padding to create a gap */
+}

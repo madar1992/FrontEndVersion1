@@ -1,0 +1,59 @@
+/* UserHome.css */
+.user-home {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  
+}
+
+/* Sidebar */
+.sidebar {
+  width: 180px;
+  /* ... other styles for the sidebar ... */
+}
+
+.recommended-text {
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0; /* Remove default margin from the main content */
+  /* ... other styles for the main content ... */
+}
+
+.job-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Adjust the gap between job cards */
+  flex: 1; /* Take up remaining space */
+  padding-left: 20px;
+  margin: 0; /* Remove default margin from the job-cards-container */
+}
+
+/* Job card */
+.job-card {
+  flex: 1 1 calc(50% - 5px); /* Flexible width with reduced gap between cards */
+  max-width: calc(50% - 5px); /* Maximum width for each card */
+  min-width: 350px; /* Minimum width for each card */
+  
+  border-radius: 9px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 15px 0px #0000001A;
+  
+  /* ... other styles for the job card ... */
+}
+
+/* Other styles for job card content like title, company name, etc. */
+
+.row-break {
+  width: 100%;
+  flex-basis: 100%;
+}
+
+/* Additional styling for other elements */
+/* ... */

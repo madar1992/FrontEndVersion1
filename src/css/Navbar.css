@@ -1,0 +1,48 @@
+.navbar {
+  background-color: rgb(237, 232, 232); /* Set the background color to white */
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 80px;
+  border-bottom: 1px solid black; /* A solid line with a color */
+  /* or */
+  box-shadow: 0 1px 0 #ccc;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title {
+  color: black; /* Set the title color to black */
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin: 0 15px;
+}
+
+.navbar-link {
+  color: blue; /* Set the link text color to white */
+  background-color: transparent; /* Set the initial link background color to transparent */
+  text-decoration: none;
+  padding: 10px 15px; /* Add some padding for better appearance */
+  border-radius: 5px; /* Add rounded corners for the links */
+  font-size: 20px;
+  transition: background-color 0.3s; /* Add transition for smooth color change on hover */
+}
+
+.navbar-link:hover {
+  background-color: blue; /* Set the link background color to blue on hover */
+  color: white;
+}

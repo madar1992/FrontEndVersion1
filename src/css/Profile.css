@@ -1,0 +1,163 @@
+/* Add this CSS to your existing styles */
+
+/* Common styling for input elements */
+input[type="text"],
+input[type="date"],
+input[type="file"] {
+  border: 1px solid blue;
+  border-radius: 12px;
+  background: #FFF;
+  height: 52px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Styles for media queries */
+
+@media screen and (max-width: 600px) {
+  .profile-form-container {
+    padding: 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td {
+    padding: 5px;
+    display: block;
+  }
+
+  td:first-child {
+    margin-top: 10px;
+  }
+
+  td:last-child {
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .upload-resume .browse-btn {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .profile-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+  }
+
+  button {
+    width: auto;
+  }
+}
+
+.Details-name {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.profile-container {
+  display: flex;
+}
+
+.profile-form-container {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.profile-container {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+/* File Upload styles */
+.file-upload-container {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.file-drop-area {
+  background-color: rgb(104, 104, 232);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  width: 60%; /* Set the width to 60% */
+  margin: 0; /* Remove margin to align left */
+  border-radius: 10px; /* Add border radius */
+}
+/* Add this to your existing CSS */
+/* Add this to your existing CSS */
+.skills-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+.skill-button {
+  padding: 8px 12px;
+  border: none;
+  background-color: lightblue; /* Initial background color */
+  color: black;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.skill-button.active {
+  background-color: blue;
+  color: white;
+}
+
+.skill-button:hover {
+  background-color: darkblue; /* Background color on hover */
+  color: white;
+}
+.experience-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.experience-table td {
+  padding: 10px;
+}
+
+.experience-table input {
+  width: 100%;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+}
+

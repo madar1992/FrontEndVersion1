@@ -1,0 +1,150 @@
+/* Container for the entire form */
+.job-form {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Headings */
+.job-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form groups (e.g., Job Title, Years of Experience) */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels for form fields */
+.field-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Text and number input fields */
+.job-title-field,
+input[type="text"],
+input[type="number"],
+input[type="file"],
+.location-field,
+.industry-field,
+.qualification-field,
+.specialization-field,
+.skills-field,
+.job-highlights-field,
+.description-field,
+.file-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Inputs for years of experience (Minimum and Maximum) */
+.experience-inputs {
+  display: flex;
+  align-items: center;
+}
+
+/* Inputs for salary range (Min Salary, Max Salary, Per annum) */
+.salary-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.min-salary-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+/* Select input for Employee Type */
+.employee-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Side-by-side fields (Employee Type and Industry Type) */
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Button for uploading files */
+.file-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.file-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.browse-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  /* Adjust styles for smaller screens if needed */
+  .job-form {
+    padding: 10px; /* Decrease padding for smaller screens */
+  }
+
+  /* Modify width of text and number input fields */
+  .job-title-field,
+  input[type="text"],
+  input[type="number"],
+  .location-field,
+  .industry-field,
+  .qualification-field,
+  .specialization-field,
+  .skills-field,
+  .job-highlights-field,
+  .description-field,
+  .file-input {
+    width: 100%;
+  }
+
+  /* Modify layout for experience and salary input fields */
+  .experience-inputs {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .min-salary-field {
+    margin-top: 10px;
+  }
+
+  .salary-inputs {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Center-align the submit button */
+  button[type="submit"] {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
